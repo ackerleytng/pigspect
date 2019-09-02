@@ -1,6 +1,7 @@
 {:source-paths
  ["src/dev"
-  "src/main"
+  "src/cljs"
+  "src/cljc"
   "src/test"]
 
  :dependencies

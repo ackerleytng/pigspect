@@ -1,4 +1,4 @@
-(ns pigspect.core
+(ns pigspect.variables
   (:require [instaparse.core
              :refer-macros [defparser]]))
 
@@ -44,5 +44,4 @@
    <newline> = '\\n' | '\\r\\n'
    <whitespace> = #'\\s+'")
 
-(defn parse-variables [s]
-  (clj->js (variables-parser s)))
+(def parse-variables variables-parser)

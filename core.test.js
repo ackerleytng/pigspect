@@ -3,7 +3,7 @@
  * Functionality tests should be written in clojurescript in src/test/*
  */
 
-const pigspect = require('./target/pigspect.interface');
+const pigspect = require('./target/pigspect.core');
 
 test('require worked, and variablesValid works (valid case)', () => {
   expect(pigspect.variablesValid("portvar HTTP 80\nipvar BLACKLISTED 1.2.3.4")).toBeTruthy();

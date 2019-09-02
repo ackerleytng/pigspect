@@ -1,7 +1,7 @@
 .PHONY: test compile clean
 
 test: compile
-	npx jest
+	npx jest core.test.js
 
 compile: target/pigspect.interface.js
 
