@@ -1,0 +1,10 @@
+{
+  "name": "pigspect",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "shadow-cljs": "2.8.52"
+  },
+  "dependencies": {}
+}

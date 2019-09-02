@@ -1,0 +1,11 @@
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[instaparse "1.4.10"]]
+
+ :builds
+ {:npm {:target :npm-module
+        :output-dir "target/"}}}
